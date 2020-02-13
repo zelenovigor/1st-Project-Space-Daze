@@ -1,0 +1,97 @@
+canvas {
+    /* border: 1px solid red; */
+    /* background-image: url(/stars-background-project-1.jfif); */
+    animation: spin 5s infinite
+}
+#start-button {
+    size: 70px;
+    font-size: 25px;
+    border-width: 0cm;
+    font-weight: bold;
+    color: greenyellow;
+    background-color: orangered;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    margin-top: -175px;
+    margin-left: 460px;
+    border-radius: 25px;
+   height: 50px;
+   width: 80px;
+}
+#restart-button {
+    size: 90px;
+    font-size: 20px;
+    border-width: 0cm;
+    font-weight: bold;
+    color: greenyellow;
+    background-color: orangered;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 100px;
+    border-radius: 25px;
+    height: 50px;
+    width: 80px;
+}
+#scoreboard{
+    position: absolute;
+    color:yellowgreen;
+    top: 0;
+    z-index: 3434;
+}
+body {
+    background-image: url('./black-hole-edited.jfif');
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-position-y: -110px;
+    
+    /* animation: spin 5s infinite reverse;    */
+    
+   
+    height: 100%;
+    overflow: hidden;
+}
+#scorep {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: greenyellow;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 1130px;
+    font-size: 30px;
+}
+
+@keyframes spin {
+   
+    10% {
+        transform:rotate(0deg) 
+        
+   }
+     50% {
+        transform:rotate(180deg) 
+        scale(0.3)
+        
+    } 
+     10% {
+        transform:rotate(0deg) 
+
+    }  
+}
+#title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(92, 241, 92);
+    font-size: 40px;
+}
+
+
+#instructions {
+    
+    font-size: 17px;
+    color: rgb(186, 248, 94);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   position: fixed;
+   margin-left: 10px;
+   margin-top: -120px;
+   text-align: start;
+   
+    
+}
